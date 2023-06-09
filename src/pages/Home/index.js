@@ -10,7 +10,7 @@ import imageUrl from "../../assets/images/Summer/Imagens/1 - Banner -Homepage.pn
 function App() {
 
   return (
-    <body>
+    <div>
       <Header />
       <Banner image={imageUrl}/>
       <section className="lineup__body">
@@ -19,7 +19,7 @@ function App() {
         <Frame />
       </section>
       <Footer />
-    </body>
+    </div>
   );
 }
 
