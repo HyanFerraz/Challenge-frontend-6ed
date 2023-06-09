@@ -1,0 +1,22 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2E7BA2;
+    padding: 2% 8%;
+}
+
+.cabecalho__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.cabecalho__nav__item {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+}

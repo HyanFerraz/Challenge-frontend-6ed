@@ -1,0 +1,76 @@
+.dates {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 20px 0;
+    gap: 48px;
+}
+
+.date__text {
+    background-color: #DF9010;
+    padding: 16px;
+}
+
+.date__text h3 {
+    margin: 0;
+    font-family: 'Calistoga';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    color: #FFFFFF;
+    line-height: 62px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.band__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    width: 100%;
+}
+
+.main__band {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 56px;
+    color: #444444;
+}
+
+.band__line {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    width: 70%;
+    font-family: 'Raleway';
+    font-style: normal;
+    line-height: 47px;
+    color: #444444;
+}
+
+.band__line__0 {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.band__line__1 {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.band__line__2 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+}
