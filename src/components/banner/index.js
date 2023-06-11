@@ -1,16 +1,14 @@
 import "./banner.css";
+import Text from "../bannerText";
 
-function Banner({ image }) {
-    console.log(image)
-
+function Banner({ image, title, subtitle }) {
     const styles = {
         backgroundImage: `url("${image}")`
     }
 
   return (
     <div className="banner" style={styles}>
-      <h1>Boas-vindas ao</h1>
-      <h1>#CodeChella2023!</h1>
+      <Text title={ title } subtitle={ subtitle } />
     </div>
   );
 }

@@ -1,4 +1,4 @@
-import Dates from "./dates";
+import Dates from "../dates";
 import "./lineup.css";
 
 function Lineup() {

@@ -1,0 +1,48 @@
+.legend {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 3% 20%;
+    gap: 48px;
+}
+
+.legend__body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+}
+
+.legend__title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #444444;
+    margin-bottom: 24px;
+}
+
+.legend__item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+}
+
+.square {
+    width: 32px;
+    height: 32px;
+}
+
+.legend__text {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 40px;
+    color: #444444;
+}
