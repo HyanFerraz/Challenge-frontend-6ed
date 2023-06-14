@@ -19,8 +19,8 @@ function Homepage() {
       <section className="lineup__body">
         <About />
         <Lineup />
-        <Frame />
       </section>
+      <Frame />
       <Footer />
     </div>
   );

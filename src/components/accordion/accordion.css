@@ -1,0 +1,39 @@
+.accordion {
+    width: 100%;
+    padding: 0;
+    list-style: none;
+    border: none;
+    margin-bottom: 24px;
+}
+
+.accordion__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    background-color: var(--primary-color-summer);
+    cursor: pointer;
+}
+
+.accordion__header h2 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: var(--text-color-white);
+}
+
+.accordion__body {
+    padding: 16px;
+    background-color: var(--tertiary-color-blue);
+}
+
+.accordion__body p {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 40px;
+    color: var(--text-color-summer);
+}

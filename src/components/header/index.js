@@ -14,10 +14,10 @@ function Header() {
         <a className="cabecalho__nav__item" href="/setores">
           Mapa de Setores
         </a>
-        <a className="cabecalho__nav__item" href="#">
+        <a className="cabecalho__nav__item" href="/informacoes">
           Informações
         </a>
-        <a className="cabecalho__nav__item" href="#">
+        <a className="cabecalho__nav__item" href="/ingresso">
           Ingresso
         </a>
       </nav>

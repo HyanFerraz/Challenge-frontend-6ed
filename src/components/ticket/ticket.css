@@ -1,0 +1,53 @@
+.ticket__title {
+    text-align: center;
+    width: 43%;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: var(--text-color-summer);
+    margin-bottom: 32px;
+}
+
+.ticket__container {
+    width: 40%;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: var(--gradient-color-summer);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.ticket__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.ticket__body {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 48px;
+}
+
+.ticket__body h2 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: var(--text-color-summer);
+}
+
+.ticket__body p {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 40px;
+    color: var(--text-color-summer);
+}

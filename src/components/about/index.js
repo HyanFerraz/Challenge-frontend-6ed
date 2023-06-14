@@ -1,6 +1,7 @@
 import "./about.css";
 import imageHomepage from "../../assets/images/Summer/Imagens/1 - Imagem homepage1.png";
-import Button from "./button";
+import buttonImage from "../../assets/images/Summer/Ícones/pngs/ícone ingresso.png";
+import Button from "../button";
 
 function About() {
   return (
@@ -19,7 +20,7 @@ function About() {
           experiência sobre música, linguagens e, claro, tecnologia! Somos um
           festival diverso, com vários artistas e referências. Divirta-se!
         </p>
-        <Button />
+        <Button text={"Comprar ingresso!"} image={buttonImage} link={"/ingresso"}/>
       </div>
     </div>
   );

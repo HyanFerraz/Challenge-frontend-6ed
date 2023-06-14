@@ -21,7 +21,7 @@
     font-weight: 700;
     font-size: 32px;
     line-height: 38px;
-    color: #444444;
+    color: var(--text-color-summer);
     margin-bottom: 24px;
 }
 
@@ -44,5 +44,5 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 40px;
-    color: #444444;
+    color: var(--text-color-summer);
 }

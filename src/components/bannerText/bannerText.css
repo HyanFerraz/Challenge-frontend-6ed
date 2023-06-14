@@ -1,7 +1,7 @@
 .banner__text {
     font-family: 'Calistoga';
     font-size: 64px;
-    color: #444444;
+    color: var(--text-color-summer);
     font-weight: 400;
     text-align: center;
 }
